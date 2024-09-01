@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden !important;
+}
+
+.theme-container{
+  background-image: linear-gradient(
+    104deg, #2f1b38 5%,
+    rgb(36, 45, 57) 25.2%,
+    rgb(16, 37, 60) 50.2%,
+    rgb(0, 0, 0) 80.6%,
+    #3a1315
+  );
+  min-height:100vh;
+  background-size:300% 300%;
+  animation: color 5s ease infinite;
+}
+
+@keyframes color{
+    0%{
+        background-position:0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+
+.hero-section{
+    background-image: radial-gradient( #4A6D8B, #252771, #754DA5);
+    min-height:100vh;
+  background-size:200% 200%;
+  animation: color 3s ease infinite;
+}
+
+@keyframes color{
+     0%{
+        background-position:0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+nav{
+    max-width:1440px;
+}
+
+.theme-container{
+    color:#ffffff !important;
+}
+
+
+
+/* <nav class="hp-0 md:px-5 backdrop-brightness- backdrop-blur-sm m-auto lg:px-20 navbar fixed-top justify-around lg:justify-self-auto items-center border-y-[1px] border-t-0 navbar-dark bg-transparent lg:text-xl z-10">
+            <div class="container-fluid">
+                <!-- logo -->
+                <a class="navbar-brand pt-0 mx-2" href="#"></a>
+                <!-- navbar-contact & large devices nav-links-->
+                <div class="w-auto ml-3 lg:flex lg:w-full lg:justify-between"><div class="flex pt-3 md:ml-10 lg:m-0 space-x-12 text-white">
+                    <a class="hover:cursor-pointer decoration-0 lg:flex lg:items-center lg:justify-center lg:space-x-3"><svg id="tel" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="md:translate-x-2 sm:ml-2 md:inline feather feather-phone lg:-translate-y-2 lg:mr-2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><p class="md:ml-2 lg:ml-10 text-white" for="tel" >Phone</p></a>
+                    <a class="hover:cursor-pointer decoration-0 flex sm:flex-col lg:flex-row"><svg id="whatsapp" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="whatsapp" class="sm:ml-5 md:mt-[1px] md:ml-5 lg:inline-block lg:mr-2 lg:translate-y-1 svg-inline--fa fa-whatsapp fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 448 512"><path fill="white" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg><p class="md:ml-0 lg:ml-0 text-white" for="whatsapp">Whatsapp</p></a>
+                    </div>
+                    <!-- large navbar-links -->
+                    <div class="flex justify-center items:center"> 
+                    <ul class="text-white flex space-x-12 xsm:hidden lg:flex lg:mx-14 lg:ml-14 lg:text-xl lg:mt-4">
+                        <li>Home</li>
+                        <li>about</li>
+                        <li>services</li>
+                        <li>contact</li>
+                    </ul></div>
+                </div>
+                
+
+<!-- drawer init and show -->
+<div class="text-center z-40">
+   <button class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" type="button" data-drawer-target="drawer-contact" data-drawer-show="drawer-contact" aria-controls="drawer-contact">
+   Show contact form
+   </button>
+</div>
+
+<!-- drawer component -->
+<div id="drawer-contact" class="visible fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white w-80 dark:bg-gray-800" tabindex="-1" aria-labelledby="drawer-contact-label">
+   <h5 id="drawer-label" class="inline-flex items-center mb-6 text-base font-semibold text-gray-500 uppercase dark:text-gray-400"><svg class="w-4 h-4 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+    <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
+    <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+  </svg>Contact us</h5>
+   <button type="button" data-drawer-hide="drawer-contact" aria-controls="drawer-contact" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 end-2.5 inline-flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white" >
+      <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+      </svg>
+      <span class="sr-only">Close menu</span>
+   </button>
+   <form class="mb-6">
+      <div class="mb-6">
+         <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+         <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@company.com" required />
+      </div>
+      <div class="mb-6">
+         <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Subject</label>
+         <input type="text" id="subject" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Let us know how we can help you" required />
+      </div>
+      <div class="mb-6">
+         <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
+         <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your message..."></textarea>
+      </div>
+      <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 w-full focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 block">Send message</button>
+   </form>
+   <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
+      <a href="#" class="hover:underline">info@company.com</a>
+   </p>
+   <p class="text-sm text-gray-500 dark:text-gray-400">
+      <a href="#" class="hover:underline">212-456-7890</a>
+   </p>
+</div>
+
+                </div>
+            </div>
+    </div>
+    </nav>  */

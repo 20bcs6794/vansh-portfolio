@@ -1,4 +1,4 @@
-<!-- Dist file -->
+<!-- Vite file -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,40 +6,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
+    <link rel="stylesheet" href="/input.css" />
     <link rel="stylesheet" href="font.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-  <link rel="stylesheet" crossorigin href="/assets/index-B18AXrbs.css">
 </head>
 
-<body style="margin: 0px; padding: 0px; box-sizing: border-box">
+<body style="margin: 0px; padding: 0px; box-sizing:border-box;">
         <!-- navbar -->
-    <nav class=" mx-auto fixed-top z-50 bg-black/60 flex sm:justify-between sm:px-2 lg:p-0 border-cyan-600 lg:justify-around items-center border-b-2 pt-2 w-full ">
-        <img src="/assets/4-removebg-preview-BEbJgKSH.png" class="w-11 h-15 hover:shadow-xl hover:scale-125 hover:drop-shadow-[0px_0px_10px_cyan] hover:cursor-none" />
+    <nav class=" fixed-top z-50 bg-black/60 flex sm:justify-around sm:px-2 md:py-2 border-cyan-600 lg:justify-around items-center border-b-2 pt-2 w-full ">
+        <img src="./logo/4-removebg-preview.png" class="w-11 sm:h-9 md:h-15 hover:shadow-xl hover:scale-125 hover:drop-shadow-[0px_0px_10px_cyan] hover:cursor-none" />
         <!-- call and Whatsapp -->
-        <div class=" w-2/3 text-white flex justify-evenly items-center">
-        <!--phone--><a class="no-underline" href="tel:+918273438007" target="_blank"><div class="hover:scale-110 hover:drop-shadow-[0px_0px_10px_white] flex justify-center pt-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="blue" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><p class="ml-1 text-gray-300">Phone</p></div></a>
-        <!--whatsapp--><a class="no-underline" href="https://wa.me/918273438007" target="_blank"><div class=" hover:drop-shadow-[0px_0px_10px_white] hover:scale-110 pt-2 flex justify-center"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="whatsapp" class="svg-inline--fa fa-whatsapp fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 448 512"><path fill="lightgreen" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg><p class="ml-1 text-gray-300">Whatsapp</p></div></a>
+        <div class="sm:-translate-y-1 md:mt-3 w-2/3 text-white flex justify-evenly items-center">
+        <!--phone--><a class="no-underline" href="tel:+918273438007" target="_blank"><div class="hover:scale-150 md:scale-125 lg:font-bold lg-text-2xl hover:drop-shadow-[0px_0px_10px_white] flex justify-center pt-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="blue" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><p class="ml-1 text-gray-300">Phone</p></div></a>
+        <!--whatsapp--><a class="no-underline" href="https://wa.me/918273438007" target="_blank"><div class="md:scale-125 lg:font-bold lg-text-2xl hover:drop-shadow-[0px_0px_10px_white] hover:scale-150 pt-2 flex justify-center"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="whatsapp" class="svg-inline--fa fa-whatsapp fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 448 512"><path fill="lightgreen" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg><p class="ml-1 text-gray-300">Whatsapp</p></div></a>
         </div>
-        <a href="#contact-container" class="no-underline"><button class=" bg-blue-500 text-white rounded-2xl lg:bg-transparent lg:border-2 border-blue-500 lg:hover:bg-blue-500 lg:hover:text-white hover:scale-110 py-1 px-3" id="contact-canvas-btn ">Connect</button></a>  
+        <a href="#contact-container" class="no-underline"><button class=" text-white rounded-xl lg:bg-transparent lg:border-2  lg:hover:text-white hover:scale-110 py-2 px-4 bg-gradient-to-r from-[#43cea2] to-[#185a9d]" id="contact-canvas-btn ">Connect</button></a>  
             
     </nav><!-- nav-end -->
     
     <!-- theme container -->
     <section class=" w-full h-full theme-container">    
 <!-- Landing-section -->
-    <div class=" relative hero-section w-full h-screen border-b-[1px] pt-10 ">
+    <div class="relative hero-section w-full h-screen border-b-[1px] pt-10 ">
         <!-- Image and text -->
         <div class="h-auto top-full md:top-0 space-y-4 md:space-y-10 text-center m-auto translate-y-36 md:translate-y-36 lg:translate-y-28 items-center w-2/3 md:-translate-x-24 lg:flex lg:items-center lg:justify-center lg:w-4/5 lg:mt-28 lg:translate-x-0">
-            <img src="/assets/dark-mode-image-CmLfPtQa.png" class=" border-b-2 rounded-full drop-shadow-[10px_0px_15px_blue] sm:w-3/4 sm:m-auto md:w-2/4 md:-translate-x-32 lg:w-2/6 lg:-translate-x-16 lg:mr-10"  />
+            <img src="./images/dark-mode-image.png" class=" border-b-2 rounded-s-full drop-shadow-[10px_0px_10px_cyan] sm:w-3/4 sm:m-auto md:w-2/4 md:-translate-x-32 lg:w-2/6 lg:-translate-x-16 lg:mr-10"  />
             <div class="my-intro space-y-3 md:space-y-8 md:text-xl md:text-left lg:w-full lg:ml-0">
-                <strong class="md:text-5xl text-4xl text-transparent bg-clip-text text-shadow-glow bg-gradient-to-l from-blue-600 via-cyan-400 bg-pink-500 ">Vanshdeep Verma</strong>
-                <p class="md:text-3xl text-3xl font-bold">A <span class="text-transparent text-opacity-75 shadow-sm inherit bg-clip-text font-extrabold bg-gradient-to-r from-cyan-400 to-purple-400">WEB DEVELOPER</span></p>
-                <button class="lg:hidden bg-blue-600 hover:bg-transparent hover:text-blue-200 border-2 border-blue-200  py-2 px-4 rounded-2xl hover:scale-110 ring-2 hover:ring-4" id="show-about-me">About Me</button>
-                <p class="hidden lg:block tracking-wider space-x-2 font-bold"> My commitment to continuous learning and adapting to new technologies ensures that I stay current with industry trends and best practices. I am ready to tackle new challenges with dedication and a proactive approach. My goal is to leverage my technical abilities and problem-solving skills to add value to your team and help drive successful outcomes.</p>
+                <strong class="md:text-5xl text-4xl text-transparent bg-clip-text text-shadow-glow bg-gradient-to-l from-[#EA8D8D] via-[#C6EA8D] to-[#A890FE] outline-dashed font-extrabold">Vanshdeep Verma</strong>
+                <p class="md:text-3xl text-3xl font-bold"><span class="text-transparent text-opacity-75 shadow-sm inherit sm:text-3xl text-4xl bg-clip-text font-extrabold bg-gradient-to-r from-[#A9F1DF] to-[#FFBBBB]">WEB DEVELOPER</span></p>
+                <button class="lg:hidden bg-blue-600 hover:bg-transparent hover:text-blue-200 border-2 border-blue-200  py-2 px-4 rounded-2xl hover:scale-110 ring-2 hover:ring-4 bg-gradient-to-r from-[#11998E] translate-y-4 to-[#516395]" id="show-about-me">About Me</button>
+                <p class="hidden lg:block tracking-wider space-x-2 font-bold bg-gradient-to-tr bg-clip-text text-transparent text-xl from-[#FCB69F] to-[#FFECD2]"> My commitment to continuous learning and adapting to new technologies ensures that I stay current with industry trends and best practices. I am ready to tackle new challenges with dedication and a proactive approach. My goal is to leverage my technical abilities and problem-solving skills to add value to your team and help drive successful outcomes.</p>
                 <!-- download-cv-button -->
-                <a href="/assets/Vanshdeepverma_resume.pdf" target="_blank" class="no-underline text-white"><button  class=  "hidden lg:inline-flex p-2 bg-transparent hover:scale-110 hover:bg-blue-600 hover:shadow-[0px_0px_10px_cyan] font-bold text-xl items-center rounded-full px-4 border-2 border-blue-600 mt-3"><span class="flex text-sm translate-x-1">Download CV</span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="rounded-full translate-x-3 text-white">
+                <a href="Vanshdeepverma_resume.pdf" target="_blank" class="no-underline text-white"><button  class=  "hidden lg:inline-flex p-2 bg-transparent hover:scale-110 hover:shadow-[0px_0px_10px_cyan] font-bold text-xl items-center rounded-full px-4 border-2 bg-gradient-to-r from-[#11998E] translate-y-4 to-[#516395]"><span class="flex text-sm translate-x-1">Download CV</span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="rounded-full translate-x-3 text-white">
                 <path d="M12 1v14" />    
                 <path d="M12 5v14M19 12l-7 7-7-7" />
                     <path d="M5 19h14 " />
@@ -49,7 +48,7 @@
         </div>
 
         <!--about-me-container -->
-        <div id="about-me" class="hidden drop-shadow-[0px_0px_10px_blue] lg:hidden inset-0 px-2 md:px-10  border-blue-900 fixed border-2 hover:cursor-default z-10 ">
+        <div id="about-me" class="hidden drop-shadow-[0px_0px_10px_blue] lg:hidden inset-0 px-2 md:px-10  border-blue-900 absolute border-2 hover:cursor-default z-10 ">
 
             <div class="text-center  top-14 md:top-48 w-full border-blue-500 p-8 rounded-lg shadow-lg  h-auto bg-black/80 backdrop-blur-md relative">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" id="hide-about-me" class=" hover:cursor-pointer hover:scale-125 -translate-x-3 -translate-y-3 feather absolute right-0 feather-x">
@@ -57,19 +56,19 @@
                 <line x1="6" y1="6" x2="18" y2="18"></line>
             </svg>
 
-            <h1 class="border-b-4 pb-3 text-2xl font-extrabold -translate-y-3">Want to Know me..!</h1>
-            <p class="tracking-wide border-b-4 ml-3 pb-1 text-xl text-left" ><strong>Welcome to my portfolio!</strong> I am a dedicated web developer with extensive experience in crafting dynamic and responsive web applications. My skill set spans a variety of modern technologies, for building interactive UIs, backend development, and for client-side scripting. With a strong foundation in Vite, Bootstrap, and Tailwind CSS, I excel at creating visually appealing, high-performance websites that deliver seamless user experiences.</p>
-            <div class="mt-2">
-                <h1 class="-translate-y-2 text-xl">Competencies</h1>
+            <h1 class="border-b-4 pb-3 font-extrabold -translate-y-3">Want to Know me..!</h1>
+            <p class="tracking-wide line-hie border-b-4 pb-3 text-2xl text-left" ><strong>Welcome to my portfolio!</strong> My skill set spans a variety of modern technologies, for building interactive UIs, backend development, and for client-side scripting. With a strong foundation in Vite, Bootstrap, and Tailwind CSS, I excel at creating visually appealing, high-performance websites that deliver seamless user experiences.</p>
+            <div>
+                <h1 class="-translate-y-4">Competencies</h1>
                 <div class="flex flex-wrap space-x-3 md:space-x-6 justify-between ">
-                    <figure class="  hover:scale-110"><img src="/assets/js-removebg-preview-BZZkANDc.png" class="drop-shadow-[0px_0px_15px_cyan]  ml-2 w-12" /><figcaption>JavaScript</figcaption></figure>
-                    <figure ><img src="/assets/Python-programming-logo-on-transparent-background-PNG-removebg-preview-C5UtAjLp.png" class="drop-shadow-[0px_0px_20px_cyan]   hover:scale-110 ml-2 w-12" /><figcaption>Python</figcaption></figure>
-                    <figure class="hover:scale-110 drop-shadow-[0px_0px_15px_cyan]"><img src="/assets/react-removebg-preview-DEDUYAPR.png" class="ml-1   mb-1 w-12" /><figcaption>React-JS</figcaption></figure>
-                    <figure class="hover:scale-110 drop-shadow-[0px_0px_15px_cyan]"><img src="/assets/sqlite-removebg-preview-BI5xJb2H.png" class="ml-2   w-12" /><figcaption>SQLite</figcaption ></figure>
-                    <figure class="hover:scale-110 translate-y-4 drop-shadow-[0px_0px_15px_cyan]"><img src="/assets/tailwind-removebg-preview-ydfvh5_U.png" class="ml-1 drop-shadow-[0px_0px_15px_cyan]  -translate-y-2 w-12" /><figcaption>Tailwind</figcaption></figure>
+                    <figure class="  hover:scale-110"><img src="/logo/js-removebg-preview.png" class="drop-shadow-[0px_0px_15px_cyan]  ml-2 w-12" /><figcaption>JavaScript</figcaption></figure>
+                    <figure ><img src="/logo/Python-programming-logo-on-transparent-background-PNG-removebg-preview.png" class="drop-shadow-[0px_0px_20px_cyan]   hover:scale-110 ml-2 w-12" /><figcaption>Python</figcaption></figure>
+                    <figure class="hover:scale-110 drop-shadow-[0px_0px_15px_cyan]"><img src="/logo/react-removebg-preview.png" class="ml-1   mb-1 w-12" /><figcaption>React-JS</figcaption></figure>
+                    <figure class="hover:scale-110 drop-shadow-[0px_0px_15px_cyan]"><img src="/logo/sqlite-removebg-preview.png" class="ml-2   w-12" /><figcaption>SQLite</figcaption ></figure>
+                    <figure class="hover:scale-110 translate-y-4 drop-shadow-[0px_0px_15px_cyan]"><img src="/icons/tailwind-removebg-preview.png" class="ml-1 drop-shadow-[0px_0px_15px_cyan]  -translate-y-2 w-12" /><figcaption>Tailwind</figcaption></figure>
                 </div>
             </div>
-            <a href="/assets/Vanshdeepverma_resume.pdf" target="_blank" class="no-underline text-white"><button  class="bg-blue-600 border-blue-500 hover:scale-105 p-2 bg-blue inline-flex font-bold items-center absolute rounded-full px-4  border-2 -bottom-4 -translate-x-1/2"><span class="flex text-sm translate-x-1">Download CV</span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="rounded-full translate-x-3 text-white">
+            <a href="Vanshdeepverma_resume.pdf" target="_blank" class="no-underline text-white"><button  class="bg-blue-600 border-blue-500 hover:scale-105 p-2 bg-blue inline-flex font-bold items-center absolute rounded-full px-4  border-2 -bottom-4 -translate-x-1/2"><span class="flex text-sm translate-x-1">Download CV</span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="rounded-full translate-x-3 text-white">
                 <path d="M12 1v14" />    
                 <path d="M12 5v14M19 12l-7 7-7-7" />
                     <path d="M5 19h14 " />
@@ -119,54 +118,52 @@
                 <!-- work-1--><div class="flex p-3 hover:shadow-[0px_0px_10px_yellow] flex-col mb-8  justify-center items-center border-2 mx-auto bg-white/20 hover:scale-105  backdrop-blur-md rounded-2xl w-full  md:w-80"> 
                 <div class="relative w-full h-full">
             <!-- MacBook Image -->
-                <img src="/assets/macbook%207-CBUeRDSF.png" alt="MacBook" class="w-full h-full object-cover">
+                <img src="mockups/macbook 7.png" alt="MacBook" class="w-full h-full object-cover">
             <!-- Project Image (Positioned within the MacBook screen) -->
-                <img src="/assets/gym-vanver-B1oo7Bc1.png" alt="Project Screenshot" class="absolute bg-white top-[6%] left-[11.5%] w-[77%] object-fit h-[85%] object-cover">
+                <img src="project/gym-vanver.png" alt="Project Screenshot" class="absolute bg-white top-[6%] left-[11.5%] md:left-[6%] w-[77%] md:w-[88%] object-fit h-[88%] md:h-[84%] object-cover">
             </div>                
                 <a href="https://lnkd.in/gd8CRgB2" class="text-yellow-100 " target="_blank"><strong class="text-3xl hover:drop-shadow-[0px_0px_10px_yellow] hover:underline">My Trainer </strong> </a>
-                <p class="text-center pt-2">In this projct I presented myself as a fitness trainer where my meals, diet and workout plans are available. This UI is created uses a simple but stylish design to impress the client and provides solution to choose thier own way of training by providing 4 main category of hybrid training.</p>
+                <p class="text-center pt-2">In this project I presented myself as a fitness trainer where my meals, diet and workout plans are available. This UI is created uses a simple but stylish design to impress the client and provides solution to choose thier own way of training by providing 4 main category of hybrid training.</p>
                 <strong class="text-2xl border-y-2 w-full text-center">Technology used</strong>
-                <div class="flex mt-2 w-full pl-2 sm:justify-around md:items-center items-center flex-wrap space-x-1 "><img src="/assets/html-removebg-preview-Cm-BWZcT.png" class="w-14"><img src="/assets/css-removebg-preview-Mu73_D6d.png" class="w-14 "/><img src="/assets/bootstrap-BDzXOSnv.png" class="w-10 h-10"/><img src="/assets/js-removebg-preview-BZZkANDc.png" class="w-10 h-10 " /></div>
+                <div class="flex mt-2 w-full pl-2 sm:justify-around md:items-center items-center flex-wrap space-x-1 "><img src="./logo/html-removebg-preview.png" class="w-14"><img src="/logo/css-removebg-preview.png" class="w-14 "/><img src="/logo/bootstrap.png" class="w-10 h-10"/><img src="/logo/js-removebg-preview.png" class="w-10 h-10 " /></div>
   <!-- project-1 end --></div>
         
 <!-- word-2 --><div class="flex p-3 flex-col w-full mx-auto mb-8 justify-center items-center border-2 bg-white/20 hover:scale-105 hover:shadow-[0px_0px_10px_white] backdrop-blur-md rounded-2xl  md:w-80"> 
                 <div class="relative w-full  h-full">
             <!-- MacBook Image -->
-                <img src="/assets/macbook%202-BMK_g9ng.png" alt="MacBook" class="w-full h-full object-cover z-10 ">
+                <img src="mockups/macbook 2.png" alt="MacBook" class="w-full h-full object-cover z-10 ">
             <!-- Project Image (Positioned within the MacBook screen) -->
-                <img src="/assets/food-munch-BkqKgbcK.png" alt="Project Screenshot" class=" absolute bg-white top-[3%] left-[12.5%] w-[75%] object-fill h-36">
+                <img src="project/food-munch.png" alt="Project Screenshot" class=" absolute bg-white top-[3%] left-[12.5%] w-[75%] object-fill h-[89%]">
             </div>     
                 <a href="https://v43foodmunch.ccbp.tech" target="_blank"><strong class="text-3xl text-white hover:drop-shadow-[0px_0px_10px_white] hover:underline ">Taste-Munch </strong> </a>           
-                <p class="text-center pt-2">In this projct I created a simple UI of any random restraunt which needs its stratup to have an impressive push on the customer by having a impressive UI based online app of its restraunt. So it can get digital customer and even get helpe in increasing its bussiness. It is a fronted UI of Restraunt Stratup providing multiple services. </p>
+                <p class="text-center pt-2">In this project I created a simple UI of any random restraunt which needs its stratup to have an impressive push on the customer by having a impressive UI based online app of its restraunt. So it can get digital customer and even get helpe in increasing its bussiness. It is a fronted UI of Restraunt Stratup providing multiple services. </p>
                 <strong class="text-2xl border-y-2 w-full text-center">Technology used</strong>
-                <div class="flex mt-2 w-full pl-2 sm:justify-around md:items-center items-center flex-wrap space-x-1 "><img src="/assets/html-removebg-preview-Cm-BWZcT.png" class="w-14"><img src="/assets/css-removebg-preview-Mu73_D6d.png" class="w-14 "/><img src="/assets/bootstrap-BDzXOSnv.png" class="w-10 h-10"/><img src="/assets/js-removebg-preview-BZZkANDc.png" class="w-10 h-10 " /></div>
+                <div class="flex mt-2 w-full pl-2 sm:justify-around md:items-center items-center flex-wrap space-x-1 "><img src="./logo/html-removebg-preview.png" class="w-14"><img src="/logo/css-removebg-preview.png" class="w-14 "/><img src="/logo/bootstrap.png" class="w-10 h-10"/></div>
   <!-- work-2 end --></div> 
-
-<!-- word-3 --><div class="flex p-3 flex-col mb-8 w-full mx-auto hover:shadow-[0px_0px_10px_blue] justify-center items-center border-2 bg-white/20 hover:scale-105  backdrop-blur-md rounded-2xl  md:w-80"> 
+   <div class="flex p-3 flex-col w-full mx-auto mb-8 justify-center items-center border-2 bg-white/20 hover:scale-105 hover:shadow-[0px_0px_10px_white] backdrop-blur-md rounded-2xl  md:w-80"> 
                 <div class="relative w-full  h-full">
             <!-- MacBook Image -->
-                <img src="/assets/macbook%202-BMK_g9ng.png" alt="MacBook" class="w-full h-full object-cover z-10 ">
+                <img src="mockups/macbook 2.png" alt="MacBook" class="w-full h-full object-cover z-10 ">
             <!-- Project Image (Positioned within the MacBook screen) -->
-                <img src="/assets/todo-DKwluXNS.png" alt="Project Screenshot" class=" absolute bg-white top-[3%] left-[12.5%] w-[75%]  object-fill h-36">
+                <img src="project/todo.png" alt="Project Screenshot" class=" absolute bg-white top-[3%] left-[12.5%] w-[75%] object-fill h-[89%]">
             </div>     
-                <a href="https://todovansh1.ccbp.tech" target="_blank"><strong class="hover:drop-shadow-[0px_0px_10px_white] text-blue-200 text-3xl hover:underline">To-Do List </strong> </a>           
-                <p class="text-center pt-2">In this projct I created a simple To-DO list for user where he can store his daily or weekly todos which will be stored in his browser's cache storage. It is a very simple UI based project to dive deep through the javaScript concepts. </p>
-                <strong class="text-2xl  border-y-2 w-full text-center">Technology used</strong>
-                <div class="flex mt-2  w-full pl-2 sm:justify-around md:items-center items-center flex-wrap space-x-1 "><img src="/assets/html-removebg-preview-Cm-BWZcT.png" class="w-14"><img src="/assets/css-removebg-preview-Mu73_D6d.png" class="w-14 "/><img src="/assets/bootstrap-BDzXOSnv.png" class="w-10 h-10"/><img src="/assets/js-removebg-preview-BZZkANDc.png" class="w-10 h-10 " /></div>
-  <!-- work-3 end --></div>
-
+                <a href="https://todovansh1.ccbp.tech" target="_blank"><strong class="text-3xl text-white hover:drop-shadow-[0px_0px_10px_white] hover:underline ">To Do </strong> </a>           
+                <p class="text-center pt-2"> I created a simple todo-list  of any random users which needs its to have an impressive push on the customer by having a impressive UI based online app of its restraunt. So it can get digital customer and even get helpe in increasing its bussiness. It is a fronted UI of Restraunt Stratup providing multiple services. </p>
+                <strong class="text-2xl border-y-2 w-full text-center">Technology used</strong>
+                <div class="flex mt-2 w-full pl-2 sm:justify-around md:items-center items-center flex-wrap space-x-1 "><img src="./logo/html-removebg-preview.png" class="w-14"><img src="/logo/css-removebg-preview.png" class="w-14 "/><img src="/logo/bootstrap.png" class="w-10 h-10"/></div>
+  <!-- work-2 end --></div> 
 
 <!--work-4 --><div class="flex p-3 flex-col mb-8 w-full mx-auto  justify-center items-center border-2 bg-white/30 hover:scale-105  backdrop-blur-md rounded-2xl hover:shadow-[0px_0px_10px_purple] md:w-80"> 
                 <div class="relative w-full  h-full">
             <!-- MacBook Image -->
-                <img src="/assets/macbook%202-BMK_g9ng.png" alt="MacBook" class="w-full h-full object-cover z-10 ">
+                <img src="mockups/macbook 2.png" alt="MacBook" class="w-full h-full object-cover z-10 ">
             <!-- Project Image (Positioned within the MacBook screen) -->
-                <img src="/assets/Screenshot%202024-08-30%20225122-zuxf8ZY1.png" alt="Project Screenshot" class=" absolute bg-white top-[3%] left-[12.5%] w-[75%] object-fill h-36">
+                <img src="project/Screenshot 2024-08-30 225122.png" alt="Project Screenshot" class=" absolute bg-white top-[3%] left-[12.5%] w-[75%] object-fill h-36">
             </div>     
                 <a href="https://vanshspeedtype.ccbp.tech"  target="_blank"><strong class="text-2xl hover:drop-shadow-[0px_0px_10px_purple] hover:underline text-purple-400 text-center">Typing Speed Challenge </strong></a>           
                 <p class="text-center pt-2">This project consist of very basic HTML, CSS and Javascript concept creating a challenge to type the random paragraphs at fast as you can. This is an interesting game to challenege your typing skills and test your fingers on your board. Random paras will come and you have to be as fast as you can. <strong>Are you Ready..?</strong></p>
                 <strong class="text-2xl  border-y-2 w-full text-center">Technology used</strong>
-                <div class="flex mt-2 w-full pl-2 sm:justify-around md:items-center items-center flex-wrap space-x-1 "><img src="/assets/html-removebg-preview-Cm-BWZcT.png" class="w-14"><img src="/assets/css-removebg-preview-Mu73_D6d.png" class="w-14 "/><img src="/assets/bootstrap-BDzXOSnv.png" class="w-10 h-10"/><img src="/assets/js-removebg-preview-BZZkANDc.png" class="w-10 h-10 " /></div>
+                <div class="flex mt-2 w-full pl-2 sm:justify-around md:items-center items-center flex-wrap space-x-1 "><img src="./logo/html-removebg-preview.png" class="w-14"><img src="/logo/css-removebg-preview.png" class="w-14 "/><img src="/logo/bootstrap.png" class="w-10 h-10"/><img src="/logo/js-removebg-preview.png" class="w-10 h-10 " /></div>
   <!-- work-4end --></div> 
         </div>
         </div><!-- project-list-end -->
@@ -199,7 +196,7 @@
                     <circle cx="12" cy="7" r="4"></circle>
                 </svg><span class="text-inherit"> Name</span></div></label> 
                 
-                <input type="text" id="userName" placeholder="Enter Your Name" class="border-2 hover:scale-105 lg:placeholder:text-white md:placeholder:text-lg  hover:drop-shadow-[0px_0px_10px_white] p-1 text-black sm:placeholder:text-sm sm:placeholder:text-black placeholder-white placeholder:font-extralight px-3 rounded-2xl placeholder:text-[1.3rem] lg:border-white lg:bg-transparent sm:border-black w-80%"/></div>
+                <input type="text" id="userName" placeholder="Enter Your Name" class="border-2 hover:scale-105 lg:placeholder:text-white md:placeholder:text-lg  hover:drop-shadow-[0px_0px_10px_white] p-1 sm:text-black lg:text-white focus:outline-none sm:placeholder:text-sm sm:placeholder:text-black placeholder-white placeholder:font-extralight px-3 rounded-2xl placeholder:text-[1.3rem] lg:border-white lg:bg-transparent sm:border-black w-80%"/></div>
             <!-- user name label -->
         <div class="flex flex-col sm:text-inherit lg:text-white"><p class="user-info-container text-black w-80">
             <label for="E-mail"><div class="flex items-center"><svg
@@ -219,7 +216,7 @@
             </svg>
             </svg><span class="text-inherit"> Email</span></div></label> 
                 
-                <input type="text" id="E-mail" placeholder="Enter Your Mail" class="border-3 hover:scale-105 p-2 sm:placeholder:text-black placeholder-white placeholder:font-extralight px-3 lg:placeholder:text-white md:placeholder:text-lg text-black lg:text-whitesm:placeholder:text-sm placeholder:text-[1.3rem] lg:border-white rounded-2xl lg:bg-transparent sm:border-black w-80%"/></div><!-- user email label -->   
+                <input type="text" id="E-mail" placeholder="Enter Your Mail" class="border-2 focus:outline-none lg:text-white hover:scale-105 lg:placeholder:text-white md:placeholder:text-lg  hover:drop-shadow-[0px_0px_10px_white] p-1 sm:text-black sm:placeholder:text-sm sm:placeholder:text-black placeholder-white placeholder:font-extralight px-3 rounded-2xl placeholder:text-[1.3rem] lg:border-white lg:bg-transparent  sm:border-black w-80%"/></div><!-- user email label -->   
             <div class="flex flex-col "><p class="user-info-container text-black w-80">
             <label for="text-message" name="message"><div class="sm:text-inherit lg:text-white flex items-center">
                 <svg
@@ -239,7 +236,7 @@
                     ></path>
                 </svg>
                 <span class="text-inherit">Message</span></div></label> 
-                <textarea id="text-message" class="w-[100%] h-36 border-3 p-2  lg:placeholder:text-white sm:placeholder:text-black placeholder:font-extralight px-3 placeholder:text-[1.3rem] lg:border-white lg:bg-transparent sm:border-black w-80% rounded-2xl md:placeholder:text-lg sm:placeholder:text-sm focus:drop-shadow-lg sm:text-black lg:text-white outline:none focus:ring-4 focus:scale-105 hover:scale-105" placeholder="Say me Hello Here..👋"></textarea>
+                <textarea id="text-message" class="w-[100%] h-36 border-3 p-2 focus:outline-none lg:placeholder:text-white sm:placeholder:text-black placeholder:font-extralight px-3 placeholder:text-[1.3rem] lg:border-white lg:bg-transparent sm:border-black w-80% rounded-2xl md:placeholder:text-lg sm:placeholder:text-sm focus:drop-shadow-lg sm:text-black lg:text-white outline:none focus:ring-2 focus:scale-105 hover:scale-105" placeholder="Say me Hello Here..👋"></textarea>
                 </div><!-- user Message label -->       
             <div class="flex py-2 hover:cursor-pointer hover:scale-110 mt-3 sm:w-2/3 lg:w-3/4 mx-auto rounded-md bg-[#1788AE] items-center justify-center my-2"><svg  width="20" height="20" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" fill="white"><path d="M22.26465,2.42773a2.04837,2.04837,0,0,0-2.07813-.32421L2.26562,9.33887a2.043,2.043,0,0,0,.1045,3.81836l3.625,1.26074,2.0205,6.68164A.998.998,0,0,0,8.134,21.352c.00775.012.01868.02093.02692.03259a.98844.98844,0,0,0,.21143.21576c.02307.01758.04516.03406.06982.04968a.98592.98592,0,0,0,.31073.13611l.01184.001.00671.00287a1.02183,1.02183,0,0,0,.20215.02051c.00653,0,.01233-.00312.0188-.00324a.99255.99255,0,0,0,.30109-.05231c.02258-.00769.04193-.02056.06384-.02984a.9931.9931,0,0,0,.20429-.11456,250.75993,250.75993,0,0,1,.15222-.12818L12.416,18.499l4.03027,3.12207a2.02322,2.02322,0,0,0,1.24121.42676A2.05413,2.05413,0,0,0,19.69531,20.415L22.958,4.39844A2.02966,2.02966,0,0,0,22.26465,2.42773ZM9.37012,14.73633a.99357.99357,0,0,0-.27246.50586l-.30951,1.504-.78406-2.59307,4.06525-2.11695ZM17.67188,20.04l-4.7627-3.68945a1.00134,1.00134,0,0,0-1.35352.11914l-.86541.9552.30584-1.48645,7.083-7.083a.99975.99975,0,0,0-1.16894-1.59375L6.74487,12.55432,3.02051,11.19141,20.999,3.999Z"/></svg><button type="submit" class="text-inherit ml-2">Send Message</button></div>
             
@@ -254,7 +251,7 @@
 
      <footer class="h-fit container-fluid w-full">
         <div class="flex pt-3 pb-1 space-y-4 flex-col justify-around items-center"><strong>Vanshdeep Verma © 2024</strong>
-        <div class="flex items-center flex-col"><img src="/assets/4-removebg-preview-BEbJgKSH.png" class="w-20 mt-2 drop-shadow-[0px_0px_3px_cyan]" />
+        <div class="flex items-center flex-col"><img src="/logo/4-removebg-preview.png" class="w-20 mt-2 drop-shadow-[0px_0px_3px_cyan]" />
         <p class="bg-gradient-to-r mt-3 from-cyan-500 ">Thank you to Visit..!😊</p>
         </div>
     </div>
